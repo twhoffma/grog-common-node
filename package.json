@@ -1,0 +1,35 @@
+{
+  "name": "grog-common-node",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+	"logger": "./logger.js",
+	"bgg": "./bgg.js",
+	"couch": "./db-couch.js",
+	"qrequests": "./qrequests.js",
+	"elastic": "./srch-elastic.js",
+	"datamgr": "./datamgr.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twhoffma/grog-common-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twhoffma/grog-common-node/issues"
+  },
+  "homepage": "https://github.com/twhoffma/grog-common-node#readme",
+  "dependencies": {
+    "moment": "^2.9.0",
+    "q": "^1.1.2",
+    "request": "^2.81.0",
+    "requests": "0.0.1",
+    "winston": "^2.2.0",
+    "cheerio": "^0.18.0",
+    "xml2js": "^0.4.19"
+  }
+}
